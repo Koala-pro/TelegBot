@@ -26,7 +26,7 @@ def send_echo(message):
 	elif temp < 20:
 		answer += "Спортивки покатят"
 	else:
-		answer += "Жарища, сиди-ка ты лучше дома"
+		answer += "Жарищаffff, сиди-ка ты лучше дома"
 
 	bot.send_message(message.chat.id, answer)
 
