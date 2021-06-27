@@ -22,11 +22,11 @@ def send_echo(message):
 	answer += "Текущая температура: " + str(temp) + " градусов по цельсию " + "\n\n"
 
 	if temp < 10:
-		answer += "Оденся потеплее, на улице холодно"
+		answer += "Оденься потеплее, на улице холодно"
 	elif temp < 20:
 		answer += "Спортивки покатят"
 	else:
-		answer += "Жарищаffff, сиди-ка ты лучше дома"
+		answer += "Жарища, сиди-ка ты лучше дома"
 
 	bot.send_message(message.chat.id, answer)
 
